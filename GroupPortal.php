@@ -14,7 +14,7 @@ $wgExtensionCredits['other'][] = array(
 		),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:GroupPortal',
 	'description' => 'Allows for group-based main page redirection',
-	'version' => '1.1.0'
+	'version' => '1.2.0'
 	);
 
 // Register extension class.
