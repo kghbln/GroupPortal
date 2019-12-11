@@ -27,7 +27,8 @@ function efGroupPortal_MediaWikiPerformAction( $output, $article, $title, $user,
 
         if ( $action === 'view' && $redirect === null ) {
                 if ( $title->equals( Title::newMainPage() ) ) {
-                        $groupPortals = explode( "\n", wfMsgForContentNoTrans( 'groupportal' ) );
+                        
+			$groupPortals = explode( "\n", wfMessage( 'Groupportal' )->inContentLanguage()->plain());
 
                         $groups = $user->getGroups();
 
